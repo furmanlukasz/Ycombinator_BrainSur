@@ -31,6 +31,9 @@ st.title("BrainSur :brain:")
 
 # 3 buttons in a row
 col1, col2, col3 = st.columns(3)
+
+st.write("---")
+st.write("---")
 if col1.button("Gallery"):
     img1, img2, img3, img4 = st.columns(4)
     img1.image('https://i.ibb.co/z52MN1r/336521860-767667991223026-3716096178740033935-n.jpg')
@@ -57,19 +60,12 @@ if col1.button("Gallery"):
     img16.image('https://i.ibb.co/W2F8G16/photo-2023-03-23-21-24-19.jpg')
 
 
-
-
-
-    pass
-
 if col2.button("Movies"):
 
     st.video('https://youtu.be/RyNUUMeZgV0')
     st.video('https://youtu.be/c6yFWVkHYZk')
     st.video('https://youtu.be/GnWIMP4iLDU')
 
-    pass
-
 if col3.button("About"):
     st.video('https://youtu.be/z34Q0KDRwdk')
-    pass
+
