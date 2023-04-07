@@ -33,7 +33,7 @@ st.title("BrainSur :brain:")
 col1, col2, col3 = st.columns(3)
 
 st.write("---")
-st.write("---")
+
 if col1.button("Gallery"):
     img1, img2, img3, img4 = st.columns(4)
     img1.image('https://i.ibb.co/z52MN1r/336521860-767667991223026-3716096178740033935-n.jpg')
