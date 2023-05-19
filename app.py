@@ -30,7 +30,7 @@ add_bg_from_url('https://i.ibb.co/w4M8rTh/macos-big-sur.jpg')
 st.title("BrainSur :brain:")
 
 # 3 buttons in a row
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 st.write("---")
 
@@ -68,4 +68,18 @@ if col2.button("Movies"):
 
 if col3.button("About"):
     st.video('https://youtu.be/z34Q0KDRwdk')
+images = ['https://i.ibb.co/K9wszRX/bs-01.jpg',
+'https://i.ibb.co/vVQg1yk/bs-02.jpg',
+'https://i.ibb.co/QrfHgMb/bs-03.jpg',
+'https://i.ibb.co/gVmSQHj/bs-04.jpg',
+'https://i.ibb.co/ZhhqVMj/bs-05.jpg',
+'https://i.ibb.co/rGJ8v71/bs-06.jpg',
+'https://i.ibb.co/NsTCGc4/bs-07.jpg',
+'https://i.ibb.co/zXBXLTJ/bs-08.jpg',
+'https://i.ibb.co/JCVM8C3/bs-09.jpg',
+'https://i.ibb.co/dQRWjPM/bs-10.jpg',
+'https://i.ibb.co/M2bNKK3/bs-11.jpg']
 
+if col4.button("Report"):
+    for img in images:
+        st.image(img)
