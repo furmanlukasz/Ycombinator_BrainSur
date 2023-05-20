@@ -179,7 +179,7 @@ if col4.button("Report"):
     mind_wandering_percentile = round(percentileofscore(df_scores.Mind_Wandering, df_scores.loc[sub_id - 1, 'Mind_Wandering'], kind='strict'))
     distraction_percentile = round(percentileofscore(df_scores.Distraction, df_scores.loc[sub_id - 1, 'Distraction'], kind='strict'))
 
-    meditation_phases('/Users/luki/Documents/GitHub/NF_app/conf_stats_all_data.csv', 512)
+    meditation_phases('conf_stats_all_data.csv', 512)
     df_meditation = pd.read_csv('data_test/df_meditation.csv', dtype={'States': str})
     # take all the data from dataframe instead first 100 rows
     df_meditation = df_meditation[40:]
