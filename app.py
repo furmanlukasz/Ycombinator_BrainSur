@@ -67,19 +67,54 @@ if col2.button("Movies"):
     st.video('https://youtu.be/GnWIMP4iLDU')
 
 if col3.button("About"):
-    st.video('https://youtu.be/z34Q0KDRwdk')
-images = ['https://i.ibb.co/K9wszRX/bs-01.jpg',
-'https://i.ibb.co/vVQg1yk/bs-02.jpg',
-'https://i.ibb.co/QrfHgMb/bs-03.jpg',
-'https://i.ibb.co/gVmSQHj/bs-04.jpg',
-'https://i.ibb.co/ZhhqVMj/bs-05.jpg',
-'https://i.ibb.co/rGJ8v71/bs-06.jpg',
-'https://i.ibb.co/NsTCGc4/bs-07.jpg',
-'https://i.ibb.co/zXBXLTJ/bs-08.jpg',
-'https://i.ibb.co/JCVM8C3/bs-09.jpg',
-'https://i.ibb.co/dQRWjPM/bs-10.jpg',
-'https://i.ibb.co/M2bNKK3/bs-11.jpg']
+    # st.video('https://youtu.be/z34Q0KDRwdk')
+    st.header("About Us")
+    st.markdown("BrainSur is a subscription-based app that delivers measurements, progress tracking, and clinically proven trainings for key aspects of mind functioning:")
+    st.markdown("- Focus")
+    st.markdown("- Stress")
+    st.markdown("- Relaxation")
+    st.markdown("- Mindfulness")
+    st.markdown("- Happiness")
+
+    st.markdown("We specialize in fast EEG signal analysis (under 150ms neurofeedback required for measurable results) to provide actionable insights, trainings, and progress tracking for meditation, mood improvement, and brain performance.")
+    st.markdown("The wearable we use in the initial phase is an EEG cap by gtech, a Microsoft hardware partner.")
+
+    st.header("Who We Serve")
+    st.markdown("BrainSur is dedicated to a wide audience of people striving to sharpen their mental performance and improve their mental state by combating depression and stress.")
+    st.markdown("For the first time, users get tangible data to answer questions like:")
+    st.markdown("- Am I meditating the right way?")
+    st.markdown("- Are my efforts to improve my brain work making me any better?")
+    st.markdown("- Why am I feeling unhappy?")
+
+    st.markdown("Even more importantly, BrainSur delivers recommendations and trainings where results can be measured.")
+    st.markdown("To enable this, we have adapted clinically proven effective neurofeedback practices to increase focus, relaxation ability, mindfulness, and resilience to a mobile app format that can be used at home.")
+
+    st.header("Integration and Partnerships")
+    st.markdown("We aim to become a part of the health apps ecosystem.")
+    st.markdown("Hence, the BrainSur app will be integrated with other important health apps to increase usability and leverage health data from:")
+    st.markdown("- Apple Health")
+    st.markdown("- Whoop")
+    st.markdown("- Oura")
+    st.markdown("- Garmin")
+    st.markdown("Additionally, we will integrate with mindfulness apps such as Headspace and Calm to enable measurements for users' favorite trainings.")
+
+
+
+
 
 if col4.button("Report"):
+    
+    images = ['https://i.ibb.co/K9wszRX/bs-01.jpg',
+              'https://i.ibb.co/vVQg1yk/bs-02.jpg',
+              'https://i.ibb.co/QrfHgMb/bs-03.jpg',
+              'https://i.ibb.co/gVmSQHj/bs-04.jpg',
+              'https://i.ibb.co/ZhhqVMj/bs-05.jpg',
+              'https://i.ibb.co/rGJ8v71/bs-06.jpg',
+              'https://i.ibb.co/NsTCGc4/bs-07.jpg',
+              'https://i.ibb.co/zXBXLTJ/bs-08.jpg',
+              'https://i.ibb.co/JCVM8C3/bs-09.jpg',
+              'https://i.ibb.co/dQRWjPM/bs-10.jpg',
+              'https://i.ibb.co/M2bNKK3/bs-11.jpg']
+
     for img in images:
         st.image(img)
