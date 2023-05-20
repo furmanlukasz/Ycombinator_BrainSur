@@ -117,4 +117,4 @@ if col4.button("Report"):
               'https://i.ibb.co/M2bNKK3/bs-11.jpg']
 
     for img in images:
-        st.image(img, width='50%', caption='BrainSur Report')
+        st.image(img, width=500)
