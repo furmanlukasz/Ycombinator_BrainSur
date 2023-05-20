@@ -53,7 +53,7 @@ def add_bg_from_url(image_url):
         unsafe_allow_html=True
     )
 
-add_bg_from_url('https://i.ibb.co/w4M8rTh/macos-big-sur.jpg')
+# add_bg_from_url('https://i.ibb.co/w4M8rTh/macos-big-sur.jpg')
 st.title("BrainSur :brain:")
 
 # 3 buttons in a row

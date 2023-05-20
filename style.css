@@ -77,7 +77,13 @@ div.vg-tooltip-element {
   display: none;
 }
 
+body {
+    color: #fff; /* Set text color to white */
+    background-color: #333; /* Set background color to dark gray */
+}
 
 
-
-
+.stApp {
+    background-image: url("https://i.ibb.co/w4M8rTh/macos-big-sur.jpg");
+    background-size: cover;
+}
