@@ -5,6 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8723429b-40ee-4abe-8299-7c297e51e4cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ElevenLabs_2023-05-20T10_27_53.000Z_Bella_NqBIPWYc6HSdl8RLetU8.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf_stats_all_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_test/Neurofeedback_scores_cl_norm_100.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_test/df_meditation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_test/df_meditation_month_year.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_test/df_meditation_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_test/df_scores_month_year.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_test/df_time_month_year.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_test/df_unmelted_year.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_test/profile_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stats_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,5 +42,10 @@
     "last_opened_file_path": "/Users/luki/Documents/GitHub/Ycombinator"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>
