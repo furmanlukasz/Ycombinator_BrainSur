@@ -103,7 +103,7 @@ if col3.button("About"):
 
 
 if col4.button("Report"):
-    
+
     images = ['https://i.ibb.co/K9wszRX/bs-01.jpg',
               'https://i.ibb.co/vVQg1yk/bs-02.jpg',
               'https://i.ibb.co/QrfHgMb/bs-03.jpg',
@@ -117,4 +117,4 @@ if col4.button("Report"):
               'https://i.ibb.co/M2bNKK3/bs-11.jpg']
 
     for img in images:
-        st.image(img)
+        st.image(img, width='50%', caption='BrainSur Report')
