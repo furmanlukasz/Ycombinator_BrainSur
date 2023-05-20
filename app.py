@@ -7,11 +7,12 @@ from PIL import Image
 import plotly.express as px
 from scipy.stats import percentileofscore
 from stats_import import meditation_phases
-
+import os
 
 # set page to wide mode and dark theme
 # st.set_page_config(layout="wide", page_title="BrainSur", page_icon=":brain:")
-with open('style.css') as f:
+css_path = os.path.join(os.path.dirname(__file__), 'style.css')
+with open(css_path) as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 def autoplay_audio(file_path: str):
