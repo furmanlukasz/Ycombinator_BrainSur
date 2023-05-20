@@ -10,7 +10,7 @@ from stats_import import meditation_phases
 
 
 # set page to wide mode and dark theme
-st.set_page_config(layout="wide", page_title="BrainSur", page_icon=":brain:")
+# st.set_page_config(layout="wide", page_title="BrainSur", page_icon=":brain:")
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
@@ -164,7 +164,7 @@ if col4.button("Report"):
     df_unmelted = df_unmelted.set_index('Score')
     df_time_month = df_time_month.set_index('Day')
     a1, a2 = st.columns(2)
-    a1.image(Image.open('data_test/profile_2.png'))
+    a1.image(Image.open('data_test/profile_2.png'), width=350)
     # a2.markdown("""### Name: <font size="5">AWatts</font>\n #### Points: <span style='color:red'>325</span>\n  #### Bonus for daily meditation: <span style='color:red'>x5</span>""", unsafe_allow_html=True)
     a2.markdown("""#### Name: <span style='color:red'>Jan Kowalski</span> """, unsafe_allow_html=True)
 
@@ -266,7 +266,8 @@ if col4.button("Report"):
 
 
         st.title("NeuroBot")
-        autoplay_audio('ElevenLabs_2023-05-20T10_27_53.000Z_Bella_NqBIPWYc6HSdl8RLetU8.mp3')
+        st.audio('ElevenLabs_2023-05-20T10_27_53.000Z_Bella_NqBIPWYc6HSdl8RLetU8.mp3')
+        # autoplay_audio('ElevenLabs_2023-05-20T10_27_53.000Z_Bella_NqBIPWYc6HSdl8RLetU8.mp3')
         st.write("NeuroGPT:", bot_message)
         for img in images:
             st.image(img, width=700, caption='NeuroGPT')
