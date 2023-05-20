@@ -269,5 +269,7 @@ if col4.button("Report"):
         st.audio('ElevenLabs_2023-05-20T10_27_53.000Z_Bella_NqBIPWYc6HSdl8RLetU8.mp3')
         # autoplay_audio('ElevenLabs_2023-05-20T10_27_53.000Z_Bella_NqBIPWYc6HSdl8RLetU8.mp3')
         st.write("NeuroGPT:", bot_message)
+
+        st.title("Your Full Report")
         for img in images:
             st.image(img, width=700, caption='NeuroGPT')
